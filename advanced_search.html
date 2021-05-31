@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Google Advanced Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <img src="google_PNG19644.png" alt="Google" width="80px"
+        style="background-position-x: left; background-position-y: top;">
+    <div>
+        <h2 style="color: red; font-weight: lighter; border-bottom: 1px solid grey; padding-bottom: 40px;">Advanced
+            Search</h2>
+    </div>
+    <div style="margin-top: 40px;">
+        <h3 style="font-weight: lighter;">Find pages with...</h3>
+    </div>
+    <div style="margin-top: 30px; margin-left: 40px;">
+        <!-- Field 1  -->
+        <form action="https://www.google.com/advanced_search" method="GET">
+            <h3>all these words:
+                <input autofocus onfocus="this.value=''" type="text" name="as_q" id="dd" style="margin-left: 80px;">
+            </h3>
+        </form>
+        <!-- Field 2 -->
+        <form action="https://www.google.com/advanced_search" method="GET">
+            <h3>this exact word or phrase:
+                <input type="text" onfocus="this.value=''" name="as_epq" id="dd" style="margin-left: 11px;">
+            </h3>
+        </form>
+        <!-- Field 3 -->
+        <form action="https://www.google.com/advanced_search" method="GET">
+            <h3>any of these words:
+                <input type="text" onfocus="this.value=''" name="as_oq" id="dd" style="margin-left: 54px;">
+            </h3>
+        </form>
+        <!-- Field 4 -->
+        <form action="https://www.google.com/advanced_search" method="GET">
+            <h3>none of these words:
+                <input type="text" name="as_eq" onfocus="this.value=''" id="dd" style="margin-left: 43px;">
+            </h3>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
